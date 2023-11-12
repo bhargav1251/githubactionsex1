@@ -1,5 +1,5 @@
   name: test manual run
-  on: workflow_dispatch
+  on: push
   jobs:
     printHello:
       runs-on: ubuntu-latest
