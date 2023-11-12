@@ -1,0 +1,7 @@
+  name: test manual run
+  on: workflow_dispatch
+  jobs:
+    printHello:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo 'Hello Bhargav'
